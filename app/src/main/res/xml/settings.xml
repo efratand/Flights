@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="USD"
+        android:title="Default currency"
+        android:entries="@array/currency"
+        android:entryValues="@array/currency"
+        android:key="currency" />
+    <ListPreference
+        android:defaultValue="white"
+        android:title="Reservation bg color"
+        android:entries="@array/bg_colors"
+        android:entryValues="@array/bg_colors"
+        android:key="r_bg_color" />
+    <ListPreference
+        android:defaultValue="yellow"
+        android:title="Confirmation bg color"
+        android:entries="@array/bg_colors"
+        android:entryValues="@array/bg_colors"
+        android:key="c_bg_color" />
+</PreferenceScreen>

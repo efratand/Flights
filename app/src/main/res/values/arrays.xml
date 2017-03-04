@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currency">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>ILS</item>
+        <item>SWF</item>
+        <item>STR</item>
+    </string-array>
+    <string-array name="bg_colors">
+        <item>white</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>red</item>
+        <item>yellow</item>
+    </string-array>
+</resources>
